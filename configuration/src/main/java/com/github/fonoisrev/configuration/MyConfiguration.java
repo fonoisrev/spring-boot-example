@@ -26,6 +26,7 @@ public class MyConfiguration {
     
     @Bean("apple")
     public Apple apple2() {
+        // actural it is never being called
         return new Apple();
     }
     
